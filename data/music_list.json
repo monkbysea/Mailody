@@ -1,0 +1,37 @@
+{
+  "sadness": [{
+    "id": "MLDS",
+    "src": "/audio/Nick Drake - Day is Done.mp3",
+    "artist": "Nick Drake",
+    "name": "Day is Done",
+    "artwork": "/audio/artwork/1.jpg"
+  }],
+  "joy": [{
+    "id": "MLDJ",
+    "src": "/audio/Pharrell Williams - Happy.mp3",
+    "artist": "Pharrell Williams",
+    "name": "Happy",
+    "artwork": "/audio/artwork/2.jpg"
+  }],
+  "fear": [{
+    "id": "MLDF",
+    "src": "/audio/Blue October - Fear.mp3",
+    "artist": "Blue October",
+    "name": "Fear",
+    "artwork": "/audio/artwork/3.jpg"
+  }],
+  "anger": [{
+    "id": "MLDA",
+    "src": "/audio/Limp Bizkit - Break Stuff.mp3",
+    "artist": "Limp Bizkit ",
+    "name": "Break Stuff",
+    "artwork": "/audio/artwork/4.jpg"
+  }],
+  "disgust": [{
+    "id": "MLDD",
+    "src": "/audio/Bring Me The Horizon - (I used to make out with) Medusa.mp3",
+    "artist": "Bring Me The Horizon",
+    "name": "(I used to make out with) Medusa",
+    "artwork": "/audio/artwork/5.jpg"
+  }]
+}

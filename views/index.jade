@@ -1,0 +1,37 @@
+extends layout
+
+block page-js
+  script(src='/js/main.js')
+
+block content
+
+  .container
+
+    .top
+      h1 Mailody
+      a(href="/recipient") I'm Recipient
+
+    .main
+      p#text Take a photo of your writing
+
+      #preview
+
+      div
+        audio(id="song") Your browser does not support the audio tag.
+
+      #song-info
+        p#song-name
+        p.caption#song-artist
+
+      #emotion.hide
+        ul
+
+    .bottom
+
+      .get-camera
+        input(class="input-file show" type="file" id="file" accept="image/*" capture="camera" name="files[]")
+        label(for="file" id="upload-btn") Take a photo
+        #status(class="hide")
+          span Analysing
+            .loader
+        #add-btn(class="hide") Add Music
